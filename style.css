@@ -150,7 +150,12 @@ h2, h3 {
 
 @media only screen and (max-height: 575.98px) and (orientation: landscape) {
   .card {
-    height: 130px;
+    font-size: calc(0.75rem + 0.2vw);
+    height: 110px;
+  }
+
+  .card h2 {
+    font-size: 1.2rem;
   }
 
   .section02 h3 {
