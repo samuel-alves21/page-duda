@@ -150,12 +150,12 @@ h2, h3 {
 
 @media only screen and (max-height: 575.98px) and (orientation: landscape) {
   .card {
-    font-size: calc(0.75rem + 0.2vw);
-    height: 110px;
+    font-size: calc(0.65rem + 0.2vw);
+    height: 100px;
   }
 
   .card h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .section02 h3 {
@@ -164,6 +164,6 @@ h2, h3 {
 
   .money,
   .diamound {
-    max-width: 50%;
+    max-width: 40%;
   }
 }
