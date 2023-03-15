@@ -144,6 +144,7 @@ h2, h3 {
 
   .card {
     font-size: calc(0.75rem + 0.2vw);
+    height: 120px;
   }
 }
 
@@ -154,5 +155,10 @@ h2, h3 {
 
   .section02 h3 {
     margin-bottom: 2%;
+  }  
+
+  .money,
+  .diamound {
+    max-width: 50%;
   }
 }
