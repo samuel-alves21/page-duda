@@ -1,0 +1,158 @@
+/* ---------------- configs ---------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sections, .container {
+  margin: 0;
+}
+
+p {
+  color: white;
+  font-family: 'Poppins', sans-serif; 
+  margin-bottom: 0;
+}
+
+h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* ---------------- general ---------------- */
+
+.section01 {
+  background: url('img/section01-background.jpg') no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+
+.wrapper {
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 5%;
+}
+
+.box {
+  background: linear-gradient(96.99deg, rgba(0, 0, 0, 0.65) -30.24%, rgba(0, 0, 0, 0) 108.19%);
+  backdrop-filter: blur(7.5px);
+  border: 0.1px solid #ffffff3f;
+  
+  border-radius: 7px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  width: 300px;
+
+  padding: 15px 5px;
+
+  min-width: 185px;
+}
+
+.img-container {
+  position: absolute;
+  width: 70px;
+  bottom: 0;
+  margin-bottom: -25px;
+}
+
+.section02 {
+  background: url('img/section02-background.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.wrapper02 h3 {
+  text-align: center;
+  color: #353535;
+}
+
+.card {
+  background: linear-gradient(263.48deg, #888888 0%, #666666 25.19%, #212121 100%);
+  border: 1px solid #FFFFFF;
+  border-radius: 12px;
+
+  flex-direction: row;
+  
+  height: calc(120px + 5vw);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.section02 h3 {
+  margin-bottom: 2%;
+}
+
+.card h2 {
+  color: white;
+}
+
+/* ---------------- Medias Queries ---------------- */
+
+@media screen and (max-width: 992px) {
+  .section01 {
+    background: url('img/section01-background-ipad.jpg') no-repeat center;
+    background-size: cover;
+  }
+
+  .box {
+    width: 250px;
+  }
+
+  .box p {
+    font-size: calc(0.8rem + 0.2vw);
+  }
+
+  .section02 {
+    background: url('img/section02-background-ipad.jpg') no-repeat center;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  br {
+    display: none;
+  }
+
+  .section01 {
+    background: url('img/section01-background-mobile.jpg') no-repeat center;
+    background-size: cover;
+  }
+
+  .box {
+    width: 220px;
+  }
+
+  .box p {
+    font-size: calc(0.6rem + 0.2vw);
+  }
+
+  .section02 {
+    background: white
+  }
+
+  .card h2 {
+    font-size: 1.2rem;
+  }
+
+  .card {
+    font-size: calc(0.75rem + 0.2vw);
+  }
+}
+
+@media only screen and (max-height: 575.98px) and (orientation: landscape) {
+  .card {
+    height: 130px;
+  }
+
+  .section02 h3 {
+    margin-bottom: 2%;
+  }
+}
