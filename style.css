@@ -111,7 +111,7 @@ h2, h3 {
   }
 
   .section02 {
-    background: url('img/section02-background-ipad.jpg') no-repeat center;
+    background: url('img/section02-background-ipad.jpg') no-repeat top;
     background-size: cover;
   }
 }
@@ -122,7 +122,7 @@ h2, h3 {
   }
 
   .section01 {
-    background: url('img/section01-background-mobile.jpg') no-repeat center;
+    background: url('img/section01-background-mobile.jpg') no-repeat top;
     background-size: cover;
   }
 
